@@ -233,7 +233,6 @@ class Dare {
       "Take sensual photos and videos of each other to keep the moment forever.",
       "Watch an adult film together and try to reenact the scenes.",
       "Go out in public and have sex in a secluded area where you might get caught.",
-      "Experiment with alcohol and try a sex game while drinking.",
       "Visit a sex club or a swingers party and explore your fantasies with other couples.",
       "Use ice cubes, hot wax, or other temperature play to enhance your sexual experience.",
       "Try a new sex position that you have never tried before.",
