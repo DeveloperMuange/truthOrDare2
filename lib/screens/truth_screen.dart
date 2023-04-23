@@ -38,6 +38,21 @@ class TruthScreen extends StatelessWidget {
 class Truth {
   static final _truthGameModes = <String, List<String>>{
     "Easy": [
+      "Would you forgive your partner if they cheated on you whilw drunk?",
+      "How old were you when you first watched porn?"
+          "What would you do differently if you could go back just before you lost your virginity?",
+      "What did you always dream of becoming when you were a kid?",
+      "Have you ever had a one night stand?",
+      "If you had to choose a celebrity to sleep with, who would it be?",
+      "How old were you when you had your first kiss?",
+      "What are your thoughts on phone sex?",
+      "What's your favorite memory with your partner?",
+      "What's the craziest thing you've ever done while drunk?",
+      "What's your wildest fantasy?",
+      "What was the first thing you noticed when you first saw your partner?",
+      "Do you think you can make love with your partner 4 times in one night?",
+      "What would you do if you walked in on your partner touching themself?",
+      "Would you like to make love while listening to music?",
       "What is your idea of a perfect romantic evening?",
       "What is the sweetest thing your partner has ever done for you?",
       "Have you ever written a love letter, and if so, who was it to?",
