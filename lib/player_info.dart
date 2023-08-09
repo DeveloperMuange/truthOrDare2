@@ -44,6 +44,7 @@ class _PlayerInfoState extends State<PlayerInfo> {
                 controller: womanNameController,
                 textAlign: TextAlign.center,
                 decoration: const InputDecoration(
+                  labelText: "Player One's Name",
                   hintText: "Enter player one's name here",
                   border: OutlineInputBorder(),
                   filled: true,
@@ -65,6 +66,7 @@ class _PlayerInfoState extends State<PlayerInfo> {
                 controller: manNameController,
                 textAlign: TextAlign.center,
                 decoration: const InputDecoration(
+                  labelText: "Player Two's Name",
                   hintText: "Enter player two's name here",
                   border: OutlineInputBorder(),
                   filled: true,
@@ -83,9 +85,15 @@ class _PlayerInfoState extends State<PlayerInfo> {
                     showDialog(
                       context: context,
                       builder: (_) => AlertDialog(
-                        title: const Text('Error'),
-                        content: const Text(
-                            'Not enough players. Enter at least 2 players to start'),
+                        title: const ExcludeSemantics(
+                          child: Text('Error'),
+                        ),
+                        content: Semantics(
+                          label:
+                              "Not enough players. Enter at least 2 players to start",
+                          child: const Text(
+                              'Not enough players. Enter at least 2 players to start'),
+                        ),
                         actions: [
                           TextButton(
                             onPressed: () => Navigator.pop(context),
@@ -108,9 +116,16 @@ class _PlayerInfoState extends State<PlayerInfo> {
                   }
                 },
                 style: ButtonStyle(
-                    backgroundColor:
-                        MaterialStateProperty.all<Color>(Colors.blueGrey)),
-                child: const Text('Start Playing'),
+                  backgroundColor: MaterialStateProperty.all<Color>(
+                      const Color.fromARGB(255, 66, 106, 126)),
+                  minimumSize:
+                      MaterialStateProperty.all<Size>(const Size(200, 60)),
+                ),
+                child: const Text(
+                  'Start Playing',
+                  style: TextStyle(fontSize: 18),
+                ),
+                //ariaLabel: "Start Playing Button",
               ),
             )
           ],
