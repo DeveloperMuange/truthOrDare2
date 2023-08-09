@@ -1,4 +1,4 @@
-package com.example.truthordare
+package com.muange.truthordare
 
 import io.flutter.embedding.android.FlutterActivity
 

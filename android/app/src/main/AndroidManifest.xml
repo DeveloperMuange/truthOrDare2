@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.truth_or_dare">
+    package="com.muange.truth_or_dare">
    <application
         android:label="Couples Truth or Dare"
         android:name="${applicationName}"
